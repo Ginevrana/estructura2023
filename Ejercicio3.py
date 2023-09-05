@@ -33,12 +33,29 @@
 # intermedio(12,50)
 
 # Punto 5
-def recortar(nro,liminf,limsup):
-    if int(nro)>int(limsup):
-        print(int(limsup))
-    elif int(nro)<int(liminf):
-        print(int(liminf))
-    else:
-        print(int(nro))
+# def recortar(nro,liminf,limsup):
+#     if int(nro)>int(limsup):
+#         print(int(limsup))
+#     elif int(nro)<int(liminf):
+#         print(int(liminf))
+#     else:
+#         print(int(nro))
 
-recortar(10,8,9)
+# recortar(10,8,9)
+
+# Punto 6
+lista = [23,46,58,12,78,59,61]
+lista2 = [17,15,24,29,36,51,87]
+
+def separar(list):
+    lista_impar=[]
+    lista_par=[]
+    for num in list:
+        if int(num) % 2==0:
+            lista_par.append(int(num))
+        else:
+            lista_impar.append(int(num))
+    print(lista_par, lista_impar)
+
+separar(lista)
+separar(lista2)
