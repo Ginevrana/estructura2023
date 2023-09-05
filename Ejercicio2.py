@@ -72,3 +72,12 @@ for num in listnum:
         max=num
 
 print(f"El número máximo de la lista es {max}")
+
+# Punto 8
+min=max
+
+for num in listnum:
+    if num<min:
+        min=num
+
+print(f"El número mínimo de la lista es {min}")
