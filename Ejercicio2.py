@@ -52,13 +52,23 @@
 # print(f"El total de la suma es {suma}")
 
 # Punto 6
+# listnum= [2,5,67,43,3]
+# suma=0
+# contador=0
+
+# for num in listnum:
+#     suma = suma+num
+#     contador = contador+1
+
+# promedio=suma/contador
+# print(f"El promedio de esta lista es {promedio}")
+
+# Punto 7
 listnum= [2,5,67,43,3]
-suma=0
-contador=0
+max=0
 
 for num in listnum:
-    suma = suma+num
-    contador = contador+1
+    if num>max:
+        max=num
 
-promedio=suma/contador
-print(f"El promedio de esta lista es {promedio}")
+print(f"El número máximo de la lista es {max}")
