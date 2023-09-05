@@ -26,8 +26,19 @@
 # relacion(5,2)
 
 # Punto 4
-def intermedio(n1,n2):
-    resultado=((n2-n1)/2)+n1
-    print(f"El punto intermedio entre {n1} y {n2} es {resultado}")
+# def intermedio(n1,n2):
+#     resultado=((n2-n1)/2)+n1
+#     print(f"El punto intermedio entre {n1} y {n2} es {resultado}")
 
-intermedio(12,50)
+# intermedio(12,50)
+
+# Punto 5
+def recortar(nro,liminf,limsup):
+    if int(nro)>int(limsup):
+        print(int(limsup))
+    elif int(nro)<int(liminf):
+        print(int(liminf))
+    else:
+        print(int(nro))
+
+recortar(10,8,9)
