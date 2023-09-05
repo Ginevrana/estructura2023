@@ -15,12 +15,19 @@
 # area_circulo(5)
 
 # Punto 3
-def relacion(nro1,nro2):
-    if nro1>nro2:
-        print(1)
-    elif nro1<nro2:
-        print(-1)
-    else:
-        print(0)
+# def relacion(nro1,nro2):
+#     if nro1>nro2:
+#         print(1)
+#     elif nro1<nro2:
+#         print(-1)
+#     else:
+#         print(0)
 
-relacion(5,2)
+# relacion(5,2)
+
+# Punto 4
+def intermedio(n1,n2):
+    resultado=((n2-n1)/2)+n1
+    print(f"El punto intermedio entre {n1} y {n2} es {resultado}")
+
+intermedio(12,50)
