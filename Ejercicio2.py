@@ -43,10 +43,22 @@
 # print(f"Cantidad de elementos: {contador}")
 
 # Punto 5
-listnum= [2,5,67,43,2]
+# listnum= [2,5,67,43,2]
+# suma=0
+
+# for num in listnum:
+#     suma = suma+num
+
+# print(f"El total de la suma es {suma}")
+
+# Punto 6
+listnum= [2,5,67,43,3]
 suma=0
+contador=0
 
 for num in listnum:
     suma = suma+num
+    contador = contador+1
 
-print(f"El total de la suma es {suma}")
+promedio=suma/contador
+print(f"El promedio de esta lista es {promedio}")
