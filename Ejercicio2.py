@@ -23,14 +23,21 @@
 #     opcion=int(input("Opción inexistente. \nPor favor seleccione qué operación realizar con los números ingresados: \n1. Sumar \n2. Restar \n3. Multiplicar \nOpcion elegida: "))
     
 # Punto 3
-mail=input("Por favor, ingrese su email: ")
+# mail=input("Por favor, ingrese su email: ")
 
-for caracter in mail:
-    if caracter != "@":
-        continue
-else:
-    mail=input("El mail ingresado es incorrecto. \nPor favor, ingrese su email: ")
+# for caracter in mail:
+#     if caracter != "@":
+#         continue
+# else:
+#     mail=input("El mail ingresado es incorrecto. \nPor favor, ingrese su email: ")
 
-print("El mail ingresado es correcto.")
+# print("El mail ingresado es correcto.")
 
+# Punto 4
+lista=["Elemento 1", "Elemento 2", "Elemento 3", "Elemento 4", "Elemento 5"]
+contador=0
+
+for elemento in lista:
+    contador = contador+1
     
+print(f"Cantidad de elementos: {contador}")
